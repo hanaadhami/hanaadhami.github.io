@@ -1,0 +1,101 @@
+body {
+  background-image: url(light_grey.png);
+}
+
+
+.navbar {
+  padding: 0px;
+}
+
+.nav-item {
+  color: gray;
+  margin-right: 125px;
+}
+
+h1 {
+  color: teal;
+}
+
+hr {
+  width: 150%;
+  border: 2px solid lightgray;
+}
+
+.navbar-brand {
+  background-color: teal;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  padding: 25px;
+  margin-left: 125px;
+}
+
+.container {
+  background-color: white;
+  padding: 50px;
+  margin: 50px auto;
+  width: 95%;
+  align-content: center;
+
+}
+
+.wrapper {
+    column-count: 1;
+    column-gap: 50px;
+    padding: 0px;
+  }
+  
+  p {
+    line-height: 1.6; 
+    font-family: Helvetica;
+    text-align: justify;
+    margin: 0;
+    font-size: 14px;
+  }
+
+.kitty {
+    float: left;
+    width: 250px;
+    padding-right: 20px;
+}
+
+/* Portfolio Page */
+
+.card-deck {
+  margin-bottom: 15px;
+}
+
+/*CSS for Contact page*/
+button {
+  background-color: teal;
+  border: 0px;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size:11pt;
+  display: inline-block;
+  margin-left: 28px;
+}
+
+input {
+  width: 93%; 
+  padding: 5pt;
+  margin-right: 5px;
+  margin-left: 28px;
+  margin-top: 5px;
+  margin-bottom: 18px;
+}
+
+.message {
+  width: 93%;
+  padding: 44pt;
+  margin-right: 5px;
+  margin-left: 28px;
+}
+
+label {
+  margin-left: 22pt;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkgray
+}

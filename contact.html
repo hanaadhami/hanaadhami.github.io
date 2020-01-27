@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>My Site with Bootstrap</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+</head>
+
+<body>
+
+<!-- Start Nav -->
+<nav class="navbar navbar-expand-lg navbar-white bg-white">
+  <span class="navbar-brand mb-1 h1">Hana Adhami</span>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="nav navbar-nav ml-auto"> <!-- ml-auto is what shifted it to the right-->
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- End Nav -->   
+
+  <!-- this is the header of the container-->
+  <div class="container">
+      <div class="row">
+          <div class="col-md-8, col-sm-8">
+              <div class="page-header">
+                  <h1>Contact</h1>
+                  <hr>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <!--leaving it blank-->
+          </div>
+      </div>
+  <!-- end of the header of the container-->
+  <div class="row">
+      <div class="col-md-12, col-sm-12">
+          <div class="Name">
+              <form>
+                  <label for="name">Name</label>
+                  <br class="break">
+                  <input type="text" name="John Smith" placeholder="John Smith">
+              </form>
+          </div>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-md-12, col-sm-12">
+          <div class="Email">
+              <form>
+                  <label for="email">Email</label>
+                  <br>
+                  <input type="text" name="example@gmail.com"
+                  placeholder="example@gmail.com">
+              </form>
+          </div>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-md-12, col-sm-12">
+          <div class="Message">
+              <form>
+                  <label for="message">Message</label>
+                  <br>
+                  <input class="message" type="text" name="message">
+              </form>
+          </div>
+      </div>
+  </div>
+  <br>
+  <button type="button">Submit</button>
+  
+  </div>
+</body>
