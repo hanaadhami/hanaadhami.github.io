@@ -1,5 +1,5 @@
 body {
-  background-image: url(light_grey.png);
+  background-image: url(images/logan-weaver-q-f5_iHh1WI-unsplash.jpg);
 }
 
 
@@ -7,8 +7,9 @@ body {
   padding: 0px;
 }
 
-.nav-item {
-  color: gray;
+.nav-link {
+  color: teal;
+  font-size: x-large;
   margin-right: 125px;
 }
 
@@ -31,26 +32,18 @@ hr {
 }
 
 .container {
-  background-color: white;
+  background-image: url(images/light_grey.png);
   padding: 50px;
   margin: 50px auto;
-  width: 95%;
   align-content: center;
-
+  box-shadow: 0 0 20px black; 
+  -webkit-box-shadow: 0 0 20px black; 
+  box-shadow: 0 0 20px black;
 }
 
-.wrapper {
-    column-count: 1;
-    column-gap: 50px;
-    padding: 0px;
-  }
-  
   p {
-    line-height: 1.6; 
     font-family: Helvetica;
-    text-align: justify;
-    margin: 0;
-    font-size: 14px;
+    font-size: 20px;
   }
 
 .kitty {
@@ -61,9 +54,7 @@ hr {
 
 /* Portfolio Page */
 
-.card-deck {
-  margin-bottom: 15px;
-}
+
 
 /*CSS for Contact page*/
 button {

@@ -4,20 +4,22 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>My Site with Bootstrap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hana Adhami</title>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Pacifico&display=swap" rel="stylesheet">
 
   <!-- Bootstrap CSS and normal CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="public/styles.css">
 
 </head>
 
 <body>
-  
+
   <!-- Start Nav -->
   
-  <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-white bg-white">
-    <span class="navbar-brand mb-1 h1">Hana Adhami</span>
+  <nav class="navbar navbar-expand-lg navbar-expand-sm">
+    <span class="navbar-brand mb-1 h1" style="font-family: 'Pacifico', cursive">Hana</span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -41,27 +43,18 @@
   <!--Container Stuff-->
 
   <!-- this is the header of the container-->
-  <div class="container">
+  <div class="container" id="page-wrap" style="width:800px; text-align: justify;">
     <div class="row">
-        <div class="col-md-8, col-sm-8">
-            <div class="page-header">
-                <h1>About Me</h1>
-                <hr>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <!--leaving it blank-->
-        </div>
+        <div class=".col-md-6 .offset-md-3">
+                <h1 style="font-family: 'Fira Sans Condensed', sans-serif;">About Me</h1>
+
 <!-- end of the header of the container-->
 
-    <div class="wrapper">
-        <img src="pic.jpg" class="kitty"> 
-        <p> I am from a small town in Virginia and moved to San Diego, California to live out my work + fun city life goals! I work for a small, but impactful cancer immunotherapy startup as a marketing analyst. My job tasks range from tweeting science content to creating graphics to planning international conferences in less than 4 weeks. Never a dull moment working for a startup! My latest career adventure is... coding! Check out my page for some of pages I've created (like this one)! 
-        </p>
+          <img src="public/images/pic.jpg" class="kitty"> 
+          <p> I am from a small town in Virginia and moved to San Diego, California to live out my work & living-in-a-fun-city life goals! I work for a small, but impactful cancer immunotherapy startup as a marketing analyst. My job tasks range from tweeting science content, to creating graphics, to planning international conferences in less than 4 weeks. Never a dull moment working for a startup! My latest interest is learning how to code! Check out my page for some of pages I've created (like this one).
+          </p>
+        </div>
     </div>
-    </div>
-
-
   </div>
 
 </body>
